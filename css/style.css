@@ -38,18 +38,6 @@ section {
 	margin-bottom: 2rem;
 }
 
-/* .heading::before {
-	content: "";
-	position: absolute;
-	top: 50%;
-	left: 0;
-	transform: translateY(-50%);
-	width: 100%;
-	height: 0.01rem;
-	background: rgba(0, 0, 0, 0.1);
-	z-index: -1;
-} */
-
 .heading span {
 	font-size: 3rem;
 	padding: 0.5rem 2rem;
@@ -92,6 +80,9 @@ section {
 	color: var(--green);
 }
 
+.header .header-1 .logo span {
+	font-family: "Brush Script MT";
+}
 .header .header-1 .search-form {
 	width: 50rem;
 	height: 5rem;
@@ -179,10 +170,6 @@ header .header-1 .icons div,
 
 	z-index: 1000;
 }
-
-/* body {
-	height: 300rem;
-} */
 
 .icons-container {
 	display: grid;
